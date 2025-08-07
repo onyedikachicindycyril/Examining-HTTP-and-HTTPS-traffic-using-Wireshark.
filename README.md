@@ -3,6 +3,7 @@ Examining HTTP and HTTPS traffic using Wireshark is crucial for troubleshooting 
 Wireshark is a powerful network protocol analyzer used to inspect traffic in real-time. When analyzing HTTP and HTTPS traffic, it allows for the observation of both unencrypted and encrypted communication between clients and servers
 1. Capturing Traffic
 To begin analyzing HTTP or HTTPS traffic, follow these steps:
+
 Step 1: Install Wireshark: Ensure that Wireshark is properly installed on the system intended for traffic capture.
  
 Step 2: Start Capture: Launch Wireshark, select the appropriate network interface (e.g., Ethernet or Wi-Fi), and initiate a live capture session. 
@@ -13,6 +14,7 @@ Step 4: Stop Capture: Once a sufficient amount of data is collected, stop the ca
  
 ________________________________________
 2. Examining HTTP Traffic
+
 Step 1: Apply HTTP Filter: Use the display filter http in Wireshark’s filter bar to isolate HTTP packets.
  
 Step 2: Analyze Plaintext Data:
@@ -23,6 +25,7 @@ This means sensitive data (such as usernames or passwords transmitted over HTTP)
  
 ________________________________________
 3. Examining HTTPS Traffic
+   
 Step 1: Apply TLS/SSL Filter:
 Use filters such as tls or ssl to display HTTPS-related packets.
  
